@@ -58,6 +58,10 @@ aside {
 	width: 500px;
 }
 
+nav {
+  margin: 0 0 30px 0;
+}
+
 nav ul {
 	list-style: none;
 }
@@ -71,6 +75,7 @@ nav ul li a {
 	background-color: #647484;
 	margin: 0 0 5px 0;
 	position: relative;
+	width: 233px;
 }
 nav ul li a span {
 	position: absolute;
@@ -91,4 +96,54 @@ nav ul li:nth-child(3) a, nav ul li:nth-child(3) a span {
 }
 nav ul li:nth-child(4) a, nav ul li:nth-child(4) a span {
 	background-color: #909673;
+}
+
+.widget {
+	background: url(../images/widget-shadow.png) top right no-repeat;
+	padding: 30px;
+}
+
+.widget h4 {
+	color: #909673;
+	text-align: right;
+	font-size: 16px;
+	text-shadow: 2px 2px 0 #d8d8dc;
+	text-transform: uppercase;
+	margin: 0 0 12px 0;
+	letter-spacing: 5px;
+	font-weight: normal;
+}
+
+.widget .date {
+	background: #909673;
+	color: #ffecc5;
+	padding: 3px;
+	text-align: right;
+	width: 235px;
+	margin: 0 0 12px -30px;
+	letter-spacing: 3px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.widget h5 {
+	font-weight: normal;
+	font-size: 18px;
+	margin: 0 0 6px 0;
+}
+
+.widget p {
+	color: #999;
+	font-size: 12px;
+}
+
+.widget .sidebar-post {
+  margin: 0 0 30px 0;
+}
+
+.industry-news h4 {
+  color: #AD7601;
+}
+.industry-news .date {
+  background: #AD7601;
 }
