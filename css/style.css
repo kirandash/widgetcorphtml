@@ -1,6 +1,6 @@
 * { margin: 0; padding: 0; }
 html { background: black url(../images/bg.jpg); }
-body { font: 14px/1.4 Georgia, serif; }
+body { font: 12px/1.4 Georgia, serif; }
 
 .group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 .group { display: inline-block; clear: both; }
@@ -55,7 +55,8 @@ aside {
 
 #main-content {
 	float: right;
-	width: 500px;
+	width: 467px;
+	padding: 0 30px 0 0;
 }
 
 nav {
